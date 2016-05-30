@@ -12,3 +12,12 @@ This guide comes with Git-it when you install it so it works offline and you can
 ```
 http://jlord.us/git-it/
 ```
+
+[git guide](http://www.bootcss.com/p/git-guide/)
+
+[git videos](http://git-scm.com/videos)
+
+[visual-git-guide](http://marklodato.github.io/visual-git-guide/index-en.html)
+
+#Git tools in MacOS
+gitx
