@@ -8,6 +8,11 @@ git help everyday
 ```
 git help toturial
 ```
+# check git config
+```
+git config --global -l
+```
+
 # config your user name and email for git
 git config --global user.name "Your Name"
 git config --global user.email "your_email@whatever.com"
@@ -29,6 +34,30 @@ To remove http proxy settings
 ```
 git config --system --unset http.proxy
 ```
+
+# config alias
+let you type git lol instead of the entire log command with all its options.
+```
+git config --global alias.lol "log --oneline --graph --decorate --all" 
+```
+let you write git co "Commit Message" to quickly commit with a message attached.
+```
+git config --global alias.co "commit -m" 
+```
+# unset alias
+```
+git config --global --unset alias.cm
+```
+
+# commit all stage files but new files
+```
+git commit -a
+```
+-a, --all
+ Tell the command to automatically stage files that have been modified and
+ deleted, but new files you have not told Git about are not affected.
+           
+
 
 # list local branches
 git branch --list # but didn't list all the branches,some branches are hidden.Why?
