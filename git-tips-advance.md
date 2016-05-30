@@ -3,6 +3,11 @@
 curl -u "username:token" https://api.github.com/user/repos -d '{"name":"midi-git-tips"}'
 ```
 
+# Git training
+https://github.com/blog/2083-start-learning-git-and-github-today-with-self-paced-training
+
+[wheelhouse](https://learn.wheelhouse.io/events/early-access/screens/532)
+
 #
 Welcome to Git-it!
 
