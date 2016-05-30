@@ -372,8 +372,6 @@ Writing objects: 100% (6/6), 652 bytes | 0 bytes/s, done.
 Total 6 (delta 2), reused 0 (delta 0)
 To /tmp/d20160527-10969-12t2hif/.git
  * [new branch]      test_branch -> test_branch
-
-  
 ```
 
 ********************************************************************************
@@ -394,7 +392,6 @@ $ git branch
 
 $ git branch -d delete_me 
 Deleted branch delete_me (was b60afe2).
-
 ```
 
 ********************************************************************************
@@ -531,7 +528,6 @@ do so (now or later) by using -b with the checkout command again. Example:
   git checkout -b <new-branch-name>
 
 HEAD is now at bd0a231... Some more changes
-
 ```
 
 ********************************************************************************
@@ -567,10 +563,7 @@ midikang:~/workspace/git_hug (master) $ git branch test_code
 midikang:~/workspace/git_hug (master) $ git branch
 * master
   test_code
-
-  
 ```
-
 
 ********************************************************************************
 *                                    Githug                                    *
@@ -817,7 +810,6 @@ Solution
 git reset --soft HEAD~1
 ```
 
-
 ********************************************************************************
 *                                    Githug                                    *
 ********************************************************************************
@@ -841,8 +833,9 @@ Changes to be committed:
 $ git reset HEAD to_commit_second.rb        
 ```
 
-
-
+********************************************************************************
+*                                    Githug                                    *
+********************************************************************************
 Name: commit_in_future
 Level: 20
 Difficulty: **
@@ -853,6 +846,9 @@ Solution
 git commit --date=2016-05-31 -m "commit in the futrue date"
 ```
 
+********************************************************************************
+*                                    Githug                                    *
+********************************************************************************
 Name: commit_amend
 Level: 19
 Difficulty: **
@@ -864,6 +860,9 @@ git add forgotten_file.rb
 git commit --amend -m "amend and add forgotten_file.rb" 
 ```
 
+********************************************************************************
+*                                    Githug                                    *
+********************************************************************************
 Name: push_tags
 Level: 18
 Difficulty: **
@@ -878,7 +877,10 @@ Solution
 ```
 There's a bug. I didn't run command 'git push ',but solved.
 ```
- 
+
+********************************************************************************
+*                                    Githug                                    *
+******************************************************************************** 
 Name: tag
 Level: 17
 Difficulty: **
@@ -890,6 +892,9 @@ Solution
 git tag new_tag
 ```
 
+********************************************************************************
+*                                    Githug                                    *
+********************************************************************************
 Name: log
 Level: 16
 Difficulty: **

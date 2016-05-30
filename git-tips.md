@@ -56,7 +56,18 @@ git commit -a
 -a, --all
  Tell the command to automatically stage files that have been modified and
  deleted, but new files you have not told Git about are not affected.
-           
+
+
+# check out tag 'v1.2'
+(Note: If there is also a branch named `v1.2`, we should use tags/v1.2).
+
+```
+git checkout v1.2
+```
+
+```
+git checkout tags/v1.2
+```
 
 
 # list local branches
