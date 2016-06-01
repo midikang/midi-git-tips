@@ -69,6 +69,11 @@ git checkout v1.2
 git checkout tags/v1.2
 ```
 
+# create and checkout a new branch
+```
+git checkout -b ch09-updating-users
+Switched to a new branch 'ch09-updating-users'
+```
 
 # list local branches
 git branch --list # but didn't list all the branches,some branches are hidden.Why?
@@ -124,3 +129,29 @@ Stash the changes in a dirty working directory away
 git filter-branch --tree-filter 'rm -f TopSecret.md' HEAD
 ```
 
+# amendment previous commit
+```
+git add app/views/users/edit.html.erb
+git commit --amend -m "ch09 edit user"
+```
+
+## Reword the previous commit message
+```sh
+git commit -v --amend
+```
+
+## push unmerged into master branch to remote 
+```
+git push origin ch09-updating-users
+Counting objects: 25, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 2.73 KiB | 0 bytes/s, done.
+Total 25 (delta 18), reused 0 (delta 0)
+remote: 
+remote: Create pull request for ch09-updating-users:
+remote:   https://bitbucket.org/midikang/rails_sample_app_03/pull-requests/new?source=ch09-updating-users&t=1
+remote: 
+To git@bitbucket.org:midikang/rails_sample_app_03.git
+ * [new branch]      ch09-updating-users -> ch09-updating-users
+```
