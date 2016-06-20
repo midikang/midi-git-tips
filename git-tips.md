@@ -251,3 +251,31 @@ test/integration/users_login_test.rb:    assert_not is_logged_in?
 test/integration/users_signup_test.rb:    assert is_logged_in?
 test/test_helper.rb:  def is_logged_in?
 ```
+
+# git add -i
+```
+midikang:~/workspace/github/private/hello-world (master) $ git add -i
+           staged     unstaged path
+  1:        +3/-8        +2/-0 README.md
+  2:        +2/-2        +7/-0 linux-tips.md
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> h
+status        - show paths with changes
+update        - add working tree state to the staged set of changes
+revert        - revert staged set of changes back to the HEAD version
+patch         - pick hunks and update selectively
+diff          - view diff between HEAD and index
+add untracked - add contents of untracked files to the staged set of changes
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+```
+
+# rename a branch
+
+```
+git branch -m <new_branch> [old_branch]
+```
