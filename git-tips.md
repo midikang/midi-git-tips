@@ -279,3 +279,6 @@ add untracked - add contents of untracked files to the staged set of changes
 ```
 git branch -m <new_branch> [old_branch]
 ```
+
+# Modify previous commit without modifying the commit message
+git add --all && git commit --amend --no-edit
