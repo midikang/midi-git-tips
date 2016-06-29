@@ -282,3 +282,6 @@ git branch -m <new_branch> [old_branch]
 
 # Modify previous commit without modifying the commit message
 git add --all && git commit --amend --no-edit
+
+# reset local changes to last commit
+git reset --hard
